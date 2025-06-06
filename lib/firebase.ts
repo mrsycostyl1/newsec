@@ -4,12 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: 'YOUR_FIREBASE_API_KEY',
-  authDomain: 'YOUR_FIREBASE_AUTH_DOMAIN',
-  projectId: 'YOUR_FIREBASE_PROJECT_ID',
-  storageBucket: 'YOUR_FIREBASE_STORAGE_BUCKET',
-  messagingSenderId: 'YOUR_FIREBASE_MESSAGING_SENDER_ID',
-  appId: 'YOUR_FIREBASE_APP_ID',
+  apiKey: "AIzaSyB1Y3v-ui6PtDh94zGpO3EmcciJPRITPro",
+  authDomain: "my-air-899a7.firebaseapp.com",
+  databaseURL: "https://my-air-899a7-default-rtdb.firebaseio.com",
+  projectId: "my-air-899a7",
+  storageBucket: "my-air-899a7.appspot.com",
+  messagingSenderId: "739001861292",
+  appId: "1:739001861292:web:0b885a5269b67eb1f88b09"
 };
 
 const app = initializeApp(firebaseConfig);
